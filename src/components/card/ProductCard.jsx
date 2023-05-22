@@ -47,7 +47,7 @@ export default function ProductCard({ name , price , id }) {
   return (
     <div className='flex flex-col justify-start items-center gap-3 bg-A4C3B2 w-2/12 rounded-md max-lg:w-4/12 max-sm:w-8/12'>
         <div className='w-10/12 relative -top-4'>
-            <img className='w-full h-full rounded' src={DefaultPic} loading='lazy' alt='PRODUCT PHOTO' />
+            <img className='w-full h-full rounded' src={DefaultPic} loading='lazy' alt='PRODUCTPHOTO' />
         </div>
         <div className='flex flex-col justify-between items-start w-9/12 h-24'>
             <h1 className='font-Urbanist text-3a5a40 font-extrabold uppercase text-2xl'>
