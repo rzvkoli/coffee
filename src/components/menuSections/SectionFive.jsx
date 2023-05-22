@@ -5,7 +5,7 @@ import APIContext from '../../context/ApiContext';
 export default function SectionFive() {
 
   const data = useContext(APIContext);
-  const ArrayData = data.appetizer;
+  const dataPage = data.appetizer;
 
   return (
     <div className='flex flex-col justify-center items-center gap-10 w-full'>
@@ -18,7 +18,7 @@ export default function SectionFive() {
       </div>
       <div className='flex flex-row justify-center items-start flex-wrap w-full gap-3 max-lg:gap-6'>
         {
-          ArrayData.map((index) => {
+          dataPage.map((index) => {
             return <ProductCard key={index.id} {...index} />
           })
         }
