@@ -10,6 +10,11 @@
 - **React Icons**
 - **Sweetalert 2**
 
+## Technologies in coffee/v0.2.0
+
+- Using **Recoil** to manage states instead of **Context** .
+- Using **Fetch** instead of **Axios** to get information . 
+
 
 ## Preview
 ### Desktop Mode
