@@ -12,8 +12,18 @@
 
 ## Technologies in coffee/v0.2.0
 
-- Using **Recoil** to manage states instead of **Context** .
-- Using **Fetch** instead of **Axios** to get information . 
+- **React**
+- **React Router**
+- **Recoil**
+- **Tailwind**
+- **Material UI**
+- **React Icons**
+- **Sweetalert 2**
+
+# Description
+
+Using **Recoil** to manage states instead of **Context** .
+Using **Fetch** instead of **Axios** to get information . 
 
 
 ## Preview
